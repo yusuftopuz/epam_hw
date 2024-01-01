@@ -15,7 +15,7 @@ class InputError(Exception):
     pass
 
 
-def check_sum_of_four(a: List[int], b: List[int], c: List[int], d: List[int]) -> None:
+def check_sum_of_four(a: List[int], b: List[int], c: List[int], d: List[int]) -> int:
     """Calculates sum of four lists are zero"""
     counter = 0
     sum_two_elem = dict()
